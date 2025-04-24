@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class AmbulanceTranslation extends Model
+{
+    //
+    public $fillable = ['driver_name' , 'notes'];
+    public $timestamps=false;
+}
